@@ -18,6 +18,6 @@ The animation below shows the prediction of an unknown point using increasing va
 
 ### 1D ConvNet
 
-The animation below shows how a 1D sequence (d=1) of 20 observations (T=20) is "broken into" 4 sequences by a 1D convolutional layer with 4 filters (f=4) of length 3. The original input is 2D with shape (d=1, T=20), the output of the 1D convolutional layer is 3D with shape (d=1, f=4, T=20).
+The animation below shows how a 1D sequence (d=1) of 20 observations (T=20) is "broken into" 4 sequences by a 1D convolutional layer with 4 filters (f=4) of length 3. The original input is actually 2D with shape (d=1, T=20). This is a little confusing given that we are working with a "1D ConvNet", but you should think of the 1D as referring to the dimensionality of the filters being passed over the data (not the data itself) - as you can see in the example below, we are passing a 1D filter of length 3 over the data. The output of the 1D convolutional layer is 3D with shape (d=1, f=4, T=20).
 
 ![cnn](./gif/cnn/cnn_1d.gif)
