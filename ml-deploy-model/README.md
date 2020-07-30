@@ -4,9 +4,7 @@
 ![](https://img.shields.io/badge/-machine--learning-important)
 ![](https://img.shields.io/badge/-aws-lightgrey)
 
-<p align="center">
-  <img src="docs/img/ml-deploy.png" width="250">
-</p>
+<img align="right" src="docs/img/ml-deploy.png" width="250">
 
 The aim of this repository is to provide a simple guide to deploying machine learning (ML) models for data scientists familiar with machine learning in a local environment, but interested in learning how to deploy their models. Deployment refers to the act of making your ML model available in a production environment, where it can be accessed and utilised by other software.
 
